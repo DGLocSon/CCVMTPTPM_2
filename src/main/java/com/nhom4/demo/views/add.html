@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+</head>
+<body>
+    <h1>Add New Product</h1>
+    <form action="/products" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" required>
+        <br><br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea>
+        <br><br>
+        <button type="submit">Add Product</button>
+        //Giao diện add
+        //Cập nhật thêm phần add.html để người dùng có thể thêm sản phẩm mới vào hệ thống. Form này sẽ gửi dữ liệu đến endpoint "/products" bằng phương thức POST.
+    </form>
+</body>
+</html>
