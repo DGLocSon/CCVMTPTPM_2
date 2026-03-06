@@ -1,0 +1,7 @@
+<!-- Cart Summary Section -->
+<div class="card p-3">
+<h5>Cart Summary</h5>
+<p>Subtotal: $3000</p>
+<p>Shipping: $10</p>
+<h4>Total: $3010</h4>
+</div
