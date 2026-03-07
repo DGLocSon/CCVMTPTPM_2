@@ -1,1 +1,1 @@
-// Giao diện tổng quan giỏ hàng
+//Tổng tiền các sản phẩm trong giỏ hàng
