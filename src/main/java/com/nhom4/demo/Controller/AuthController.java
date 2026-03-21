@@ -13,4 +13,7 @@ public class AuthController {
     public String loginGithub() {
         return "login-github";
     }
+    public String loginTwitter() {
+        return "login-twitter";
+    }
 }
